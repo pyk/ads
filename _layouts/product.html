@@ -5,7 +5,7 @@ layout: default
 {% assign product = site.data.products[page.product] %}
 
 <div class="fl w-100 contain">
-    <img src="/assets/img/{{ product.image_name }}" alt="{{ product.title }}">
+    <img src="{{ site.baseurl }}/assets/img/{{ product.image_name }}" alt="{{ product.title }}">
 </div>
 
 <div class="fl w-100 ph4 pv3 avenir">
