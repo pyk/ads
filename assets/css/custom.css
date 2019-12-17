@@ -1,0 +1,29 @@
+.shopee-rating-stars {
+    position: relative;
+    display: inline-block;
+}
+
+.shopee-rating-stars__stars {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.shopee-rating-stars__gold-star {
+    color: #ffce3d;
+    fill: #ffce3d;
+    display: block;
+    position: absolute;
+    left: 0;
+    overflow-x: hidden;
+}
+
+.shopee-svg-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    position: relative;
+}
