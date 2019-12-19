@@ -6,9 +6,18 @@ layout: default
 
 <script>
     fbq('track', 'ViewContent', {
-      content_ids: "{{product.sku}}",
-      content_type: "product",
+        content_name: "{{product.title}}",
+        content_ids: ["{{product.sku}}"],
+        content_type: "product",
     });
+
+    function click_buy_in_shopee() {
+        fbq('track', 'Lead', {
+            content_name: "{{product.title}}",
+            content_ids: ["{{product.sku}}"],
+            content_type: "product",
+        });
+    }
 </script>
 
 <div class="fl w-100 contain">
@@ -60,7 +69,7 @@ layout: default
     </div>
 
     <div class="fl w-100 mv3">
-        <a onclick="gtag_report_conversion('{{product.shopee_url}}')">
+        <a href="{{product.shopee_url}}" onclick="click_buy_in_shopee()">
             <img src="https://cf.shopee.co.id/file/7a7d692dea30b8a14ccdff50d088546a" class="mw-100" alt="Pesan melalui Shopee">
         </a>
     </div>
