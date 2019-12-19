@@ -4,6 +4,13 @@ layout: default
 
 {% assign product = site.data.products[page.product] %}
 
+<script>
+    fbq('track', 'ViewContent', {
+      content_ids: "{{product.sku}}",
+      content_type: "product",
+    });
+</script>
+
 <div class="fl w-100 contain">
     <img src="{{ site.baseurl }}/assets/img/{{ product.image_name }}" alt="{{ product.title }}">
 </div>
