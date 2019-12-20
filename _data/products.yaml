@@ -5,3 +5,59 @@ beatles_logo:
   harga: "Rp 99,000"
   shopee_url: "https://shopee.co.id/bayualdi/3114253553"
   image_name: "post-the-beatles-logo.png"
+
+arctic_monkeys_crew_bw:
+  title: "KAOS ARCTIC MONKEYS CREW BW"
+  sku: "am-crew-bw"
+  bahan_kaos: "New States Apparel Soft Tee, Combed 30s"
+  harga: "Rp 99,000"
+  shopee_url: "https://shopee.co.id/bayualdi/7002574750"
+  image_name: "post-arctic-monkeys-crew-bw.png"
+
+eilish_necklace:
+  title: "KAOS BILLIE EILISH NECKLACE"
+  sku: "eilish-necklace"
+  bahan_kaos: "New States Apparel Soft Tee, Combed 30s"
+  harga: "Rp 99,000"
+  shopee_url: "https://shopee.co.id/bayualdi/4407796763"
+  image_name: "post-billie-eilish-necklace.png"
+
+eilish_mood:
+  title: "KAOS BILLIE EILISH MOOD"
+  sku: "eilish-mood"
+  bahan_kaos: "New States Apparel Premium Tee, Combed 24s"
+  harga: "Rp 99,000"
+  shopee_url: "https://shopee.co.id/bayualdi/7100858415"
+  image_name: "post-billie-eilish-mood.png"
+
+joji_stars:
+  title: "KAOS JOJI STARS"
+  sku: "joji-stars"
+  bahan_kaos: "New States Apparel Soft Tee, Combed 30s"
+  harga: "Rp 99,000"
+  shopee_url: "https://shopee.co.id/bayualdi/4800901226"
+  image_name: "post-joji-stars.png"
+
+orang_tua:
+  title: "KAOS ORANG TUA"
+  sku: "orang-tua"
+  bahan_kaos: "New States Apparel Soft Tee, Combed 30s"
+  harga: "Rp 99,000"
+  shopee_url: "https://shopee.co.id/bayualdi/6400487555"
+  image_name: "post-orang-tua-1.png"
+
+boy_pablo_pink:
+  title: "KAOS BOY PABLO LOSING YOU PINK"
+  sku: "boy-pablo-pink"
+  bahan_kaos: "New States Apparel Premium Tee, Combed 24s"
+  harga: "Rp 99,000"
+  shopee_url: "https://shopee.co.id/bayualdi/5501452833"
+  image_name: "post-boy-pablo-pink.png"
+
+lisa_script:
+  title: "KAOS BLACKPINK LISA SCRIPT"
+  sku: "lisa-script"
+  bahan_kaos: "New States Apparel Premium Tee, Combed 24s"
+  harga: "Rp 99,000"
+  shopee_url: "https://shopee.co.id/bayualdi/7901434075"
+  image_name: "post-blackpink-lisa-script.png"
