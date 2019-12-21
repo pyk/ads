@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+{% assign promo = site.data.promotions[page.promo] %}
+
+<script>
+    fbq('track', 'ViewContent', {
+        content_name: "{{promo.title}}",
+        content_ids: ["{{promo.sku}}"],
+        content_type: "promo",
+    });
+
+    function click_buy_in_shopee() {
+        fbq('track', 'Lead', {
+            content_name: "{{promo.title}}",
+            content_ids: ["{{promo.sku}}"],
+            content_type: "promo",
+        });
+    }
+</script>
+
+<div class="fl w-100 contain">
+    <img src="{{ site.baseurl }}/assets/img/{{ promo.image_name }}" alt="{{ promo.title }}">
+</div>
+
+<div class="fl w-100 ph4 pv3 avenir">
+    <h1 class="f4 b">{{ promo.title }}</h1>
+
+    <div class="shopee-rating-stars">
+        <div class="shopee-rating-stars__stars">
+            <div class="shopee-rating-stars__star-wrapper">
+                <div class="shopee-rating-stars__lit dib v-mid" style="width: 100%;">
+                    <svg class="shopee-svg-icon shopee-rating-stars__gold-star icon-rating-solid dib v-mid" enable-background="new 0 0 15 15" viewBox="0 0 15 15" x="0" y="0">
+                        <polygon points="7.5 .8 9.7 5.4 14.5 5.9 10.7 9.1 11.8 14.2 7.5 11.6 3.2 14.2 4.3 9.1 .5 5.9 5.3 5.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></polygon>
+                    </svg>
+                </div>
+            </div>
+            <div class="shopee-rating-stars__star-wrapper">
+                <div class="shopee-rating-stars__lit dib v-mid" style="width: 100%;">
+                    <svg class="shopee-svg-icon shopee-rating-stars__gold-star icon-rating-solid dib v-mid" enable-background="new 0 0 15 15" viewBox="0 0 15 15" x="0" y="0">
+                        <polygon points="7.5 .8 9.7 5.4 14.5 5.9 10.7 9.1 11.8 14.2 7.5 11.6 3.2 14.2 4.3 9.1 .5 5.9 5.3 5.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></polygon>
+                    </svg>
+                </div>
+            </div>
+            <div class="shopee-rating-stars__star-wrapper">
+                <div class="shopee-rating-stars__lit dib v-mid" style="width: 100%;">
+                    <svg class="shopee-svg-icon shopee-rating-stars__gold-star icon-rating-solid dib v-mid" enable-background="new 0 0 15 15" viewBox="0 0 15 15" x="0" y="0">
+                        <polygon points="7.5 .8 9.7 5.4 14.5 5.9 10.7 9.1 11.8 14.2 7.5 11.6 3.2 14.2 4.3 9.1 .5 5.9 5.3 5.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></polygon>
+                    </svg>
+                </div>
+            </div>
+            <div class="shopee-rating-stars__star-wrapper">
+                <div class="shopee-rating-stars__lit dib v-mid" style="width: 100%;">
+                    <svg class="shopee-svg-icon shopee-rating-stars__gold-star icon-rating-solid dib v-mid" enable-background="new 0 0 15 15" viewBox="0 0 15 15" x="0" y="0">
+                        <polygon points="7.5 .8 9.7 5.4 14.5 5.9 10.7 9.1 11.8 14.2 7.5 11.6 3.2 14.2 4.3 9.1 .5 5.9 5.3 5.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></polygon>
+                    </svg>
+                </div>
+            </div>
+            <div class="shopee-rating-stars__star-wrapper dib v-mid">
+                <div class="shopee-rating-stars__lit dib v-mid" style="width: 100%;">
+                    <svg class="shopee-svg-icon shopee-rating-stars__gold-star icon-rating-solid dib v-mid" enable-background="new 0 0 15 15" viewBox="0 0 15 15" x="0" y="0">
+                        <polygon points="7.5 .8 9.7 5.4 14.5 5.9 10.7 9.1 11.8 14.2 7.5 11.6 3.2 14.2 4.3 9.1 .5 5.9 5.3 5.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></polygon>
+                    </svg>
+                </div>
+            </div><span class="ml2 lh-copy f6 black-70 dib v-mid">
+                <span class="strike">{{ promo.harga_asli }}</span> {{ promo.harga_diskon }}
+            </span></div>
+    </div>
+
+    <div class="fl w-100 mv3">
+        <a href="{{promo.shopee_url}}" onclick="click_buy_in_shopee()">
+            <img src="https://cf.shopee.co.id/file/7a7d692dea30b8a14ccdff50d088546a" class="mw-100" alt="Pesan melalui Shopee">
+        </a>
+    </div>
+
+    <div class="fl w-100">
+        <p class="tc black-40">Oleh <a href="https://instagram.com/bay.catalog" class="black-40">@bay.catalog</a></p>
+    </div>
+</div>
+
