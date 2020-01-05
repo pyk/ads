@@ -54,6 +54,14 @@ boy_pablo_pink:
   shopee_url: "https://shopee.co.id/bayualdi/5501452833"
   image_name: "post-boy-pablo-pink.png"
 
+boy_pablo_blue:
+  title: "KAOS BOY PABLO LOSING YOU BLUE"
+  sku: "boy-pablo-blue"
+  bahan_kaos: "New States Apparel Premium Tee, Combed 24s"
+  harga: "Rp 99,000"
+  shopee_url: "https://shopee.co.id/bayualdi/3807764552"
+  image_name: "post-boy-pablo-blue.png"
+
 lisa_script:
   title: "KAOS BLACKPINK LISA SCRIPT"
   sku: "lisa-script"
