@@ -69,3 +69,27 @@ lisa_script:
   harga: "Rp 99,000"
   shopee_url: "https://shopee.co.id/bayualdi/7901434075"
   image_name: "post-blackpink-lisa-script.png"
+
+rich_brian_onfire:
+  title: "KAOS RICH BRIAN ONFIRE"
+  sku: "rich-brian-onfire"
+  bahan_kaos: "New States Apparel Soft Tee, Combed 30s"
+  harga: "Rp 99,000"
+  shopee_url: "https://shopee.co.id/bayualdi/4800908928"
+  image_name: "post-rich-brian-fire.png"
+
+xxxtentacion_long_live:
+  title: "KAOS XXXTENTACION LONG LIVE"
+  sku: "xxxtentacion-long-live"
+  bahan_kaos: "New States Apparel Soft Tee, Combed 30s"
+  harga: "Rp 99,000"
+  shopee_url: "https://shopee.co.id/bayualdi/3305752582"
+  image_name: "post-xxxtentacion-long-live.png"
+
+jennie_sport:
+  title: "KAOS BLACKPINK JENNIE SPORT"
+  sku: "jennie-sport"
+  bahan_kaos: "New States Apparel Soft Tee, Combed 30s"
+  harga: "Rp 99,000"
+  shopee_url: "https://shopee.co.id/bayualdi/4807844205"
+  image_name: "post-blackpink-jennie-sport.png"
